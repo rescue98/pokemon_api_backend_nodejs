@@ -6,6 +6,19 @@ El siguiente proyecto cumple ciertas funcionalidades, utilizando la API https://
 Este proyecto es una API para gestionar Pokémon, implementada en dos tecnologías: **NodeJs**. La API permite realizar operaciones básicas como listar Pokémon, capturarlos, liberarlos, y gestionar un registro de Pokémon capturados.
 Esta es una API RESTful para gestionar Pokémon, construida utilizando Node.js y SQLite. Permite listar, capturar y liberar Pokémon, así como importar datos desde un archivo JSON.
 
+## Clonar el Repositorio
+
+Para clonar el repositorio en tu máquina local, sigue estos pasos:
+
+1. **Abre la Terminal o CMD**.
+2. **Ejecuta el siguiente comando** para clonar el repositorio:
+   git clone https://github.com/tu_usuario/pokemon_api_backend_nodejs.git
+3. git branch -a -> verificar las ramas disponibles
+4. cd "carpeta proyecto"
+5. git checkout develop
+
+Con esto, ya puedes ver el código y realizar cambios si así lo requiere.
+
 ## Estructura de Ramas
 
 Este repositorio sigue la estrategia de **Git Flow**, donde las funcionalidades se desarrollan en ramas separadas y se integran a la rama `develop`. Esto es una buena práctica por varias razones:
